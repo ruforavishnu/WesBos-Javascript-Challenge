@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="style.css">
+
+
+    <title>Wes Bos 30 Days Javascript Challenge - Day 2: CSS + JS Clock</title>
+</head>
+<body>
+
+	<h3 id="heading">Day 2 : CSS + JS Clock</h3>
+
+	<div class="clock">
+		<div class="clock-face">
+			<div class="hours-hand"></div>
+			<div class="minutes-hand"></div>
+			<div class="seconds-hand"></div>		
+
+				
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	
+	const secondHand = document.querySelector('.seconds-hand');
+	const minutesHand = document.querySelector('.minutes-hand');
+	const hoursHand = document.querySelector('.hours-hand');
+
+	function setDate()
+	{
+		const now = new Date();
+		const seconds = now.getSeconds();
+		const secondsInDegrees = (seconds * 6)+ 90;
+		const minutes = now.getMinutes();
+		const minutesInDegrees = (minutes * 6)+ 90;
+		const hours = now.getHours();
+		const hoursInDegrees = (hours*6) + 90;
+
+		secondHand.style.transform = `rotate(${secondsInDegrees}deg)`;
+		minutesHand.style.transform = `rotate(${minutesInDegrees}deg)`;
+		hoursHand.style.transform = `rotate(${hoursInDegrees}deg)`;
+
+
+		console.log(seconds);
+	}
+	setInterval(setDate,1000);
+</script>
+
+</body>
+</html>
