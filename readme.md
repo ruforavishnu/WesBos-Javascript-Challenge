@@ -1,6 +1,10 @@
+Time spent: 45+60+60+120 mins
+=> Total time spent: 4 hours 45mins
+
+
+
 Commit#1 - JS Drumkit
-Time spent: 45+60+60 mins
-=> Total time spent: 2 hours 45mins
+
 
 Commit details:
 1. Working on the JS Drumkit project
@@ -37,5 +41,14 @@ Things learnt :
 	--blur: 10px;
 
 }
+
+
+Commit #4 - Array Cardio Day 1
+
+Things learnt
+1. array.filter()
+2. array.map()
+3. array.sort()
+4. array.reduce()
 
 
