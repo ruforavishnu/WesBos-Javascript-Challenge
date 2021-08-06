@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120 mins
-=> Total time spent: 4 hours 45mins
+Time spent: 45+60+60+120+65 mins
+=> Total time spent: 5 hours 50mins
 
 
 
@@ -50,5 +50,12 @@ Things learnt
 2. array.map()
 3. array.sort()
 4. array.reduce()
+
+
+Commit #5 - Ajax Type Ahead
+
+1. Built a search box which shows an ajax like feature found in google autosuggest to suggest data from a database(we've used a json here and fills in the result as and when we type text)
+
+
 
 
