@@ -56,6 +56,17 @@ Commit #5 - Ajax Type Ahead
 
 1. Built a search box which shows an ajax like feature found in google autosuggest to suggest data from a database(we've used a json here and fills in the result as and when we type text)
 
+Commit #4 - Array Cardio Day 2
+
+Things learnt
+
+1.Array.some()
+2.Array.every()
+3. Array.find()
+4. Array.findIndex()
+
+
+
 
 
 
