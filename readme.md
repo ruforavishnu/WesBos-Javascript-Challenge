@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65 mins
-=> Total time spent: 5 hours 50mins
+Time spent: 45+60+60+120+65+60 mins
+=> Total time spent: 6 hours 50mins
 
 
 
@@ -56,7 +56,7 @@ Commit #5 - Ajax Type Ahead
 
 1. Built a search box which shows an ajax like feature found in google autosuggest to suggest data from a database(we've used a json here and fills in the result as and when we type text)
 
-Commit #4 - Array Cardio Day 2
+Commit #6 - Array Cardio Day 2
 
 Things learnt
 
@@ -64,6 +64,19 @@ Things learnt
 2.Array.every()
 3. Array.find()
 4. Array.findIndex()
+
+
+Commit#7- Fun with HTML Canvas
+
+
+Things learnt
+
+1. learn how to use hsl command for hue,saturation,lightness
+2. learnt how to render a canvas in 2d mode
+3. learnt how to draw lines on canvas.
+
+
+
 
 
 
