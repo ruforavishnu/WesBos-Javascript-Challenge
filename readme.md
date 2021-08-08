@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60 mins
-=> Total time spent: 6 hours 50mins
+Time spent: 45+60+60+120+65+60+40 mins
+=> Total time spent: 7 hours 30mins
 
 
 
@@ -74,6 +74,20 @@ Things learnt
 1. learn how to use hsl command for hue,saturation,lightness
 2. learnt how to render a canvas in 2d mode
 3. learnt how to draw lines on canvas.
+
+
+Commit#8 - Must Know Dev Tools
+
+Things learnt
+
+1. lots of console. variations
+like
+console.log()
+2. console.dir()
+3. console.info, console.warn, console.error, console.assert
+4. console.group, console.groupCollapsed, console.groupEnd
+5. console.time used with a promise and console.timeEnd
+6. console.table
 
 
 
