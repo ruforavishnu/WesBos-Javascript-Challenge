@@ -90,6 +90,11 @@ console.log()
 6. console.table
 
 
+Commit#9 - Hold down shift to check multiple checkboxes
+
+Things learnt
+1. Learnt how to check if shift key is pressed while an event happens.
+
 
 
 
