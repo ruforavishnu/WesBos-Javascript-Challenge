@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40 mins
-=> Total time spent: 7 hours 30mins
+Time spent: 45+60+60+120+65+60+40+60 mins
+=> Total time spent: 8 hours 30mins
 
 
 
@@ -94,6 +94,19 @@ Commit#9 - Hold down shift to check multiple checkboxes
 
 Things learnt
 1. Learnt how to check if shift key is pressed while an event happens.
+
+
+Commit#10 - Learnt how  to create a custom HTML5 video player 
+
+Things learnt
+1. Learnt how  to create a custom HTML5 video player with
+(i) Skip 25 seconds ahead
+(ii) Skip 10 seconds previous
+(iii) play, pause video
+(iv) progress bar seeking(scrubbing)
+(v) handle volume bar seeking
+(vi) handle playback speed changing.
+(vii) show correct play/pause button depending upon video playing or pausing.
 
 
 
