@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>
+		Creating a div dynamically
+	</title>
+</head>
+<body>
+	<h3>Creating a div dynamically</h3>
+
+	<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
+
+	<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
+
+	<div class="secret">
+		
+	</div>
+
+	<h4 class="secretHeading">Sample Text</h4>
+
+	<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
+
+	<p>Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text </p>
+
+	<script type="text/javascript">
+
+	function magicPopup()
+	{
+		console.log('clicked');
+
+		var magicDiv = document.createElement('div');
+
+		magicDiv.style.width = '200px';
+		magicDiv.style.height = '200px';
+		magicDiv.style.backgroundColor = 'red';
+
+		const secretDivContainer = document.querySelector('.secret');
+		secretDivContainer.appendChild(magicDiv);
+
+	}
+	const secretHeading = document.querySelector('.secretHeading');
+	secretHeading.addEventListener('click', magicPopup);
+
+	</script>
+
+</body>
+</html>

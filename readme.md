@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60 mins
-=> Total time spent: 8 hours 30mins
+Time spent: 45+60+60+120+65+60+40+60+30+60 mins
+=> Total time spent: 10 hours 0mins
 
 
 
@@ -107,6 +107,23 @@ Things learnt
 (v) handle volume bar seeking
 (vi) handle playback speed changing.
 (vii) show correct play/pause button depending upon video playing or pausing.
+
+Commit#11  - Key Event Detection (Konami Code)
+
+Things learnt
+1. Learnt how to activate a key sequence to enable cheat code type settings in the browser
+2. Accomplished a childhood dream of creating a cheatcode sequence that sounded super cool
+Now , when you press r f r then Shift+Enter Key then Ctrl+Alt+L, a secret code activation takes place
+then after that when you type in v i s h n u, the cheat code gets activated and shows you 'welcome to the portal Mr Vishnu Ajit' in the console! Uber Cool !!
+
+Commit#12  - Day 13 - Slide In to Scroll
+
+Things learnt
+1. Learnt how to use a debounce function
+2. Learnt how to detect if the image on screen is actually visible in the window
+3. Learnt how to dynamically add a css class on an html element
+4. Learnt how to dynamically remove a css class on an html element
+
 
 
 

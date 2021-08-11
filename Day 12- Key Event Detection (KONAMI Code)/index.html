@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 12 - Key Event Detection (KONAMI Code)</title>
+</head>
+<body>
+
+	<h3>Day 12 - Key Event Detection (KONAMI Code)</h3>
+
+
+
+<script type="text/javascript">
+	
+	let isSecretCodeDetected = false;
+
+	const pressed = [];
+	// const secretCode ='vishnu';
+	const secretCode = ["r", "f", "r", "Enter", "Shift", "l", "Alt", "Control"]
+
+	window.addEventListener('keyup', (e) => {
+		
+		pressed.push(e.key);
+		console.log(e.key);
+		
+		//console.log('-secretCode.length -1:'+ (-secretCode.length -1));
+		
+		//console.log('pressed.length - secretCode.length:'+ (pressed.length - secretCode.length));
+		pressed.splice(-secretCode.length -1 , pressed.length - secretCode.length );
+		console.log('secretCode.length :'+ (secretCode.length));
+		console.log('pressed.length :'+ (pressed.length));
+		console.log(pressed);
+		console.log('pressed.join :' + pressed.join('') );
+		console.log('secretCode :' + secretCode);
+		console.log('secretCode.join() :' + secretCode.join(''));
+
+		if(pressed.join('') === secretCode.join('')) 
+		{
+			console.log('%cSecret Code Detected', 'color:red; font-size:25px')
+			isSecretCodeDetected = true;
+		}
+
+		if(isSecretCodeDetected &&  pressed.join('').includes('vishnu'))
+		{
+			console.log('%cLevel 2 Activated. Welcome to the portal, Mr Vishnu Ajit', 'color:blue; font-size:35px')
+
+		}
+
+
+
+	});
+
+</script>
+</body>
+</html>
