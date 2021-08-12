@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 14 - Objects and Arrays : Reference vs Copy</title>
+</head>
+<body>
+
+	<h3>Day 14 - Objects and Arrays : Reference vs Copy</h3>
+
+	<script>
+		//start with strings, numbers and booleans
+		let age = 10;
+		let age2 = age;
+
+		console.log(age, age2);
+		age = 20;
+		console.log(age, age2);
+
+		let name = "vishnu";
+		let name2 = name;
+		console.log(name, name2);
+		name = "arjun";
+		console.log(name, name2);
+
+		const players = ['Vishnu', 'Manuel', 'Rafeeq', 'Akbar'];
+
+		const team = players;
+
+		console.log(players, team);
+
+		team[3] = 'Denish';
+		console.log(players, team);
+		const team2 = players.slice();
+		console.log(players, team, team2);
+		team2[3] = 'Akbar';
+		console.log(players, team, team2);
+
+		const team4 = [...players];
+		console.log(players, team, team2,team4);
+		team4[2] = 'Norbu';
+		console.log(players, team, team2,team4);
+
+		const team5 = Array.from(players);
+		team5[1] = 'Pradeep';
+		console.log(players, team, team2,team4,team5);
+
+		//with objects
+
+		const person = {
+			name : 'Wes Bos',
+			age: 80
+
+		};
+		console.clear();
+
+		const captain = person;
+		captain.age = 55;
+		console.log(person, captain);
+
+		const cap2 = Object.assign({}, person, {age:55});
+		console.log(person,  cap2);
+
+		const cap3 = Object.assign({}, person, {number:99, age:25});
+		console.log(person,  cap2,cap3);
+
+		const cap4 = {...person};
+		cap4.age = 155;
+		console.log(person, captain,   cap2,cap3, cap4 );		
+		console.clear();
+
+		const wes = {
+			name :'Wes',
+			age : 25,
+			social  : 
+			{
+				twitter: '@wesbos',
+				facebook : 'wesbos.developer'
+			}
+
+		}
+
+		console.log(wes);
+
+		const dev = Object.assign({}, wes);
+		dev.name = 'Wesley';
+
+		console.log(wes, dev);
+		// dev.social.twitter = '@coolman';
+		// console.log(wes, dev);
+
+		const dev2 = JSON.parse(JSON.stringify(wes));
+		dev2.social.twitter = '@coolman';
+		console.log(wes, dev2);
+
+
+	</script>
+
+</body>
+</html>

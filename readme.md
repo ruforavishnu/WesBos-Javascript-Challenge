@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60 mins
-=> Total time spent: 10 hours 0mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60 mins
+=> Total time spent: 11 hours 0mins
 
 
 
@@ -126,6 +126,10 @@ Things learnt
 
 
 
+Commit #13 - Day 14 - Objects and Arrays : References Vs Copy
+
+1. Learnt how to reference an array and copy an array
+2. Learn how to reference and Object and copy an object.
 
 
 
