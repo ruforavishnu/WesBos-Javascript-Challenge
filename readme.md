@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60 mins
-=> Total time spent: 11 hours 0mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60 mins
+=> Total time spent: 12 hours 0mins
 
 
 
@@ -130,6 +130,12 @@ Commit #13 - Day 14 - Objects and Arrays : References Vs Copy
 
 1. Learnt how to reference an array and copy an array
 2. Learn how to reference and Object and copy an object.
+
+
+Commit#14 - Day 15- Local Storage and Event Delegation
+
+1. Learnt how to store objects and their values using  json string in the LocalStorage of the Browser so the values persist even if the file is closed and opened later on
+2. Learnt Event Delgation. If an html element on the page is dynamically created and it has event listeners, the better way to add listeners to it is to add listeners to the parent element. And inside the listener function check if the e.target.matches('input') means if the event has been raised by our required element . in our case 'inputs' . if not just return the function. so the advantage is , no matter if the children of the parent element are being created, modified or deleted dynamically. As long as the parent of the children exist, the parent has the responsibility of invoking the reqd function when the situation demands it.
 
 
 
