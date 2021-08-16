@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60 mins
-=> Total time spent: 12 hours 0mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20 mins
+=> Total time spent: 12 hours 20mins
 
 
 
@@ -142,7 +142,12 @@ Commit#15 - Day 16 - CSS Text Shadow Mouse Move Effect
 Things learnt: 
 1. Learnt how to move text shadow according to mouse position on the html element.
 
+Commit#16 - Day 17 - Sorting band names without articles
 
+Things learnt:
+1. Learnt once again how to use map function in array
+2. Learnt once again how to use sort function in array
+3. Learnt once again how to use regexp replace function 
 
 
 
