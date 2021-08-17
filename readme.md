@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20 mins
-=> Total time spent: 12 hours 20mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80 mins
+=> Total time spent: 13 hours 30mins
 
 
 
@@ -150,4 +150,11 @@ Things learnt:
 3. Learnt once again how to use regexp replace function 
 
 
+
+Commit#17 - Day 18 - Tally string times with Array.reduce function
+
+Things learnt :
+
+1. Learnt how to extract timestamp numbers from string
+2. Learnt to perform mathematical operations on the numbers
 
