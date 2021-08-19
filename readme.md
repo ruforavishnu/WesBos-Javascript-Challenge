@@ -172,4 +172,9 @@ Things learnt:
 6. How to run the localhost server using npm start
 
 
+Commit #18.03 - Day 19 - Unreal webcam fun
+Total time spent : 20mins
+
+Things learnt:
+1. Having fun manipulating r,g,b pixels from the webcam out
 
