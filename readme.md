@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80 mins
-=> Total time spent: 13 hours 30mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90 mins
+=> Total time spent: 15 hours 0mins
 
 
 
@@ -157,4 +157,19 @@ Things learnt :
 
 1. Learnt how to extract timestamp numbers from string
 2. Learnt to perform mathematical operations on the numbers
+
+Commit#18.02 - Day 19 - Unreal Webcam Fun //in Commit#18.01 forgot to do git add --all. so that commit is just waste.
+
+Total time spent: 90 mins
+
+Things learnt:
+
+1. How to display video from webcam on browser
+2. How to convert the webcam data to video data
+3. How to capture the video data into a screenshot(or photo) jpg
+4. How to create a nodejs server for this program using package.json
+5. How to tel the server what all dependecies to load using package.json
+6. How to run the localhost server using npm start
+
+
 
