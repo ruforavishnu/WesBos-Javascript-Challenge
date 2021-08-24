@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90 mins
-=> Total time spent: 15 hours 0mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30 mins
+=> Total time spent: 15 hours 30mins
 
 
 
@@ -178,3 +178,11 @@ Total time spent : 20mins
 Things learnt:
 1. Having fun manipulating r,g,b pixels from the webcam out
 
+
+
+Commit #19
+Total time spent : 30 mins
+
+Things learnt:
+1. getBoundingClientRect() method
+2. how to create a filled background element dynamically and move it around on the page wherever the mouse moves.
