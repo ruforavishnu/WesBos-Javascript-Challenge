@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30 mins
-=> Total time spent: 15 hours 30mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30 mins
+=> Total time spent: 16 hours 0mins
 
 
 
@@ -186,3 +186,9 @@ Total time spent : 30 mins
 Things learnt:
 1. getBoundingClientRect() method
 2. how to create a filled background element dynamically and move it around on the page wherever the mouse moves.
+
+Commit #20
+Total time spent : 30mins
+
+Things learnt:
+1. Learnt how to use SpeechSynthesis function of browser to speak aloud any english text.
