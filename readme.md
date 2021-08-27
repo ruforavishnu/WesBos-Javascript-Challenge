@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30 mins
-=> Total time spent: 16 hours 30mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45 mins
+=> Total time spent: 17 hours 15mins
 
 
 
@@ -201,3 +201,18 @@ Things learnt:
 
 1. Learnt how to add sticky nav when the user has scrolled down
 2. Learnt how to use inline styles to body and ensure the page scroll feels smooth enough.
+
+
+Commit #21 - Day 25 - Event capture , propagation , bubbling, once
+Total time spent: 45 mins
+
+Things learnt:
+
+1. When capture is true, the event propagates from top to bottom
+and capture is set to false, the event bubbles up from bottom to top.
+Remember capture is top to down
+and Bubbling is bottom to top. so if you want to stop propagation of the bubbling at the initial stage
+or at any stage you want, just use e.stopPropagation() where e is the event parameter.
+2. using once : true inside addEventListener is equal to putting removeEventListener
+
+
