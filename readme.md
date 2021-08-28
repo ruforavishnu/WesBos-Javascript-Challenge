@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45 mins
-=> Total time spent: 17 hours 15mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45+45 mins
+=> Total time spent: 18 hours 0mins
 
 
 
@@ -216,3 +216,7 @@ or at any stage you want, just use e.stopPropagation() where e is the event para
 2. using once : true inside addEventListener is equal to putting removeEventListener
 
 
+Commit #22 - Day 26 - Stripe Website Follow along Nav
+
+Things learnt:
+1. Show dynamic navigation elements with loads of html content inside it, as and when mouse enters and leaves.
