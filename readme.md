@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45+45 mins
-=> Total time spent: 18 hours 0mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45+45+30 mins
+=> Total time spent: 18 hours 30mins
 
 
 
@@ -220,3 +220,9 @@ Commit #22 - Day 26 - Stripe Website Follow along Nav
 
 Things learnt:
 1. Show dynamic navigation elements with loads of html content inside it, as and when mouse enters and leaves.
+
+Commit #23 - Day 27 
+
+Things learnt:
+1. Using mouse click and drag, Scroll divs to left or right with whatever speed you want to, in any direction.
+
