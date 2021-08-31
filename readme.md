@@ -1,5 +1,5 @@
-Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45+45+30 mins
-=> Total time spent: 18 hours 30mins
+Time spent: 45+60+60+120+65+60+40+60+30+60+60+60+20+80+90+30+30+30+45+45+30+30 mins
+=> Total time spent: 19 hours 0mins
 
 
 
@@ -226,3 +226,11 @@ Commit #23 - Day 27
 Things learnt:
 1. Using mouse click and drag, Scroll divs to left or right with whatever speed you want to, in any direction.
 
+
+
+Commit #24 - Day 28
+
+Things learnt:
+
+1. Learnt how to change playbackrate of a video on runtime
+2. learnt how to convert decimal to 2 or whatever places of decimal points.
